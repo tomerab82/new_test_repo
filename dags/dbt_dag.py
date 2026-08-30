@@ -21,7 +21,7 @@ dbt_snowflake_dag = DbtDag(
     profile_config=profile_config,
     render_config=RenderConfig(select=["tag:hr_run"]),
     execution_config=ExecutionConfig(execution_mode=ExecutionMode.LOCAL,dbt_executable_path="/usr/local/airflow/dbt_venv/bin/dbt"),
-    schedule="*0 * * * *",
+    schedule="0 * * * *",
     start_date=datetime(2023, 1, 1),
     catchup=False,
     dag_id="dbt_dag",
