@@ -1,3 +1,4 @@
+{{ config(tags=['20m_run']) }}
 select 
 * 
 from {{ref('test_1')}}

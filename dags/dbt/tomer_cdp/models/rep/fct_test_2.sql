@@ -1,3 +1,5 @@
+{{ config(tags=['hr_run']) }}
+
 select 
 t1.* 
 from {{ref('fct_test_1')}} t1
