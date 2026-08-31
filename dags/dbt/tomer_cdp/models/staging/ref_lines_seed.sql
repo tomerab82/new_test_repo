@@ -1,1 +1,1 @@
-select * from {{ source('source_2', 'ref_lines') }}`
+select * from {{ source('source_2', 'ref_lines') }}
