@@ -13,6 +13,8 @@ airflow.cfg
 airflow.db
 .astro/*.local.yml
 .astro/*.local.yaml
+*.p8
+*.pem
 
 **/.astro/dbt_metadata.json
 **/.astro/manifest.slim.json
