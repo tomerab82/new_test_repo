@@ -10,3 +10,10 @@ sources:
         description: "This is the orders table"
       - name: lineitem
         description: "This is the lineitem table"
+  - name: source_2
+    description: "This is source_2 for the project"
+    database: ta_dbt_db
+    schema: ods
+    tables:
+      - name: ref_lines
+        description: "This is a ref lines table"
