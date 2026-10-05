@@ -2,4 +2,4 @@
 
 select top 50000 
 * 
-from {{ source ('source_airline', 'loyalty_hist') }}
+from {{ source ('airline_source_1', 'loyalty_hist') }}
