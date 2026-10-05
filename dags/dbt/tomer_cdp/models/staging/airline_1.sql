@@ -1,4 +1,4 @@
-{{ config(tags=['hr_run']) }}
+{{ config(tags=['hr_run'], schema='airline') }}
 
 select top 50000 
 * 
