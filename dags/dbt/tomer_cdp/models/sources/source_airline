@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: airline_source_1
+    description: "Airline table #1 with data re XXXX"
+    database: ta_airline
+    schema: ODS
+    tables:
+      - name: flight_activity
+        description: "This is a flight activity table"
+      - name: loyalty_hist
+        description: "This is a loyalty history table"
